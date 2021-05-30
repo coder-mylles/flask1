@@ -22,14 +22,7 @@ def save_user(self):
 	User.save_user("self")
 
 
-#    3. Function that deletes user
-def delete_user(self):
-	'''
-	Function that deletes user
-	'''
-	User.delete_user()
 
-        # 4. Function that finds user when one choses to log in.
 def find_user(email, password):
 	'''
 	Function that finds user when one choses to log in.
