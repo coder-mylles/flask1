@@ -62,43 +62,7 @@ def create_credentials(account_name, login_detail , Password):
 
 
 
-def save_credentials():
-	'''
-	methods that saves credentials.
-	'''
-	return Credentials.save_credentials()
 
-	#7. Function that copies cridentials on clipboard
-
-def create_credentials( save_credentials):
-	'''
-	function to create new user
-	'''
-	Credentials.create_credentials("account_name", "login_detail" , "Password")
-	
-
-def copy_User_credential():
-	'''
-	Function that copies cridentials on clipboard
-	'''
-	return User.find_user(email)
-# pyperclip.copy(user_found.email)
-
-def passGen(size = 8, char=string.ascii_uppercase + string.ascii_lowercase + string.digits):
-    gen = ''.join(random.choice(char) for _ in range(size))
-    return gen
-
-
-
-def main():
-
-	# custom_fig = Figlet(font='speed')
-	# print(custom_fig.renderText('PASSWORD SAFE'))
-
-	print("Welcome to Password Safe.Follow through our Menu and enter the shortcode to navigate:\n sign ---- to sign up,\n log ----   to log In,\n  exit ---- to exit ")
-	
-	
-	print("*" *80)
 	
 	code = input().lower()
 	# .........................trial.........................
