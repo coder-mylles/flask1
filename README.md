@@ -1,6 +1,6 @@
 # Password-Locker
 
-## Author Ndundiro Kamau, August 30th 2019
+## Author Martin Mylles, May 24th 2021
 
 ## Description
 A python that is operated via the commandline takes in user password for different accounts and stores them.The user has to log in to access the stored accounts cridentials.The app can also generate a random password for a user.
@@ -27,7 +27,7 @@ The website has the following functionalities:
 * pip
 #### Cloning 
 
-* git clone  https://github.com/Ndundiro/Password-Locker on terminal.
+* git clone  https://github.com/martin-moringa/flask1.git on terminal.
 * cd Password-Locker
 * code . or atom . based on the text editor you have to open the project.
 #### Running the app
@@ -42,7 +42,7 @@ The website has the following functionalities:
 The application does not verify the user as it should.
 
 ## Support and Contact Details
-For any comments,suggestions,feedback or inquiries, contact me via email: ndundirokamau@gmail.com
+For any comments,suggestions,feedback or inquiries, contact me via email: martin.mylles@student.moringaschool.com
 
 ## License
-This project is licensed under the MIT Open Source license Copyright © 2019. Ndundiro Kamau
+This project is licensed under the MIT Open Source license Copyright © 2021. Mylles Martin
