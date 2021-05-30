@@ -36,15 +36,15 @@ def find_user(email, password):
 	'''
 	return  User.find_user(email, password)
 
-   
-def display_users():
-	'''
-	function that saves Users
-	'''
-	return User.display_users()
+    # 5. Function that checks for existing Users
+# def check_existing_user(user):
+'''
+Function that checks for existing Users
+'''
+#     return User.check_existing_user(user)
 
-# def new_credentials(account_name, login_detail , Password):
-# 	new_credentials(save_credentials)
+    #6. function that saves Users
+
 
 def create_credentials(account_name, login_detail , Password):
 
