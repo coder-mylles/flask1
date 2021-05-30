@@ -36,14 +36,7 @@ def find_user(email, password):
 	'''
 	return  User.find_user(email, password)
 
-    # 5. Function that checks for existing Users
-# def check_existing_user(user):
-'''
-Function that checks for existing Users
-'''
-#     return User.check_existing_user(user)
-
-    #6. function that saves Users
+   
 def display_users():
 	'''
 	function that saves Users
