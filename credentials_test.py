@@ -6,9 +6,7 @@ class TestCredentials(unittest.TestCase):
     '''
     Test Class to test the behaviour of the credentials class
     '''
-    def setUp(self):    
-        self.new_credentials = Credentials("Facebook", "0712345678", "alfiecode")
-    
+   
 
    # The tearDown() method allows us to clean up.
    # def tearDown(self):
