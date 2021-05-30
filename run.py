@@ -44,7 +44,14 @@ Function that checks for existing Users
 #     return User.check_existing_user(user)
 
     #6. function that saves Users
+def display_users():
+	'''
+	function that saves Users
+	'''
+	return User.display_users()
 
+# def new_credentials(account_name, login_detail , Password):
+# 	new_credentials(save_credentials)
 
 def create_credentials(account_name, login_detail , Password):
 
@@ -99,6 +106,13 @@ def main():
 			
 		print("Enter your  Username")
 		user_name = input().lower()
+		elif code == "sign":
+		print("Enter your details to create account")
+		print("Enter Username")
+		user_name = input().lower()
+
+		print("Enter your email adress")
+		email = input().lower()
 
 		# print("Enter your email adress")
 		# email = input().lower()
@@ -109,7 +123,6 @@ def main():
 		if find_user(user_name, password) == password:  #can take user_name as the third parameter
 			print("Successfully logged in")	
 	
-
 		else:
 			print("Your cridentials don't match any account.Enter the shortcode sign, to Sign up and access Application.")
 			
